@@ -1,0 +1,23 @@
+.sidenav-menus li {
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidenav-menus {
+    max-width: 250px;
+    margin-top: 10px;
+}
+
+.logo {
+    width: 142px;
+    height: 96px;
+    padding-left: 10px;
+}
+
+.menu-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    
+}

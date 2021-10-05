@@ -1,0 +1,98 @@
+.menus {
+    width: 496px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+
+    margin: auto;
+    margin-top: 20px;
+
+    color: black;
+}
+
+.header-two {
+  margin-bottom: 20px;
+}
+
+.menus li a {
+    color: black;
+}
+
+.menu-location {
+    display: flex;
+    align-items: center;
+}
+
+.location {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.location-name {
+    color: #FF4E00;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 653px;
+    border: 1px solid #E96125;
+    border-right: none;
+    padding: 5px 20px;
+    height: 46px;
+    border-radius: 30px 0 0 30px ;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: #E96125;
+  }
+  
+  .searchButton {
+    width: 180px;
+    height: 58px;
+    border: 1px solid #E96125;
+    background: #E96125;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 30px 30px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    width: 650px;
+    margin: auto;
+    position: static;
+    top: 10%;
+    left: 50%;
+  }
+
+
+
+  .search-order-account {
+    display: flex;
+  }
+
+  .btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  .btns div {
+    margin: 5px 10px;
+    padding:  5px 10px;
+  }
